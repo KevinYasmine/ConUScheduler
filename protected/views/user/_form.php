@@ -50,7 +50,7 @@
 	</div>
 
 	<div class="row">
-		<?php echo CHtml::label("Privelege",""); ?>
+		<?php echo CHtml::label("Privilege",""); ?>
 		<?php echo $form->dropDownList($model,'isAdmin',
 			array('1' => 'Administrator', '0' => 'Student'));?>
 
