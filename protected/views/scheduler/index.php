@@ -10,7 +10,9 @@ $this->breadcrumbs=array(
 ?>
 
 <h1>Generate a Schedule</h1>
-
+<br>
+<input type="button" value="View Course Sequence">
+<br><br>
 <div id="user-preferences">
     <h2>Select Preferences</h2>
     <?php
@@ -21,8 +23,6 @@ $this->breadcrumbs=array(
     ?>
 </div>
 
-<div id="generate-button">
-    <input type="button" value="Generate Schedule">
+<div id="buttons">
+    <input type="button" value="Generate Schedule"> <input type="button" value="View Saved Schedules">
 </div>
-
-
